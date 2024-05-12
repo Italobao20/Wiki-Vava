@@ -9,7 +9,6 @@ body {
     
     nav{
         background-color: rgba(20, 16, 16, 0.753);
-        
         width: 180px;
         height: auto;
         position: relative;
@@ -26,34 +25,6 @@ body {
       padding: 20px; 
       font-size: larger;
       color: white;
-    }
-
-    #Agentes{
-        color: white;
-    }
-    #Armas{
-        color: white;
-    }
-    #Midia{
-        color: white;
-    }
-    #Mapas{
-        color: white;
-    }
-    #Modos{
-        color: white;
-    }
-    #Sistema{
-        color: white;
-    }
-    #Campeonatos{
-        color: white;
-    }
-    #Comunidade {
-        color: white;
-    }
-    #Atualização{
-        color: white;
     }
 
     .roboto-thin {
@@ -139,51 +110,32 @@ body {
     color: white;
     padding: 0px 0px;
     display: block;
+
 }
 .sobreposicao:hover{
     background-color: rgb(80, 78, 78);
-    width: 153px;
-    height: 45px;
-    position: static;
+    width:auto; 
     
-
 }
+
 .retangulo-oval {
-  width: 150px; /* largura do retângulo */
-  height: 20px; /* altura do retângulo */
-  border-radius: 10px; /* 50% do raio vai fazer um círculo */
+  width: 150px; 
+  height: 20px; 
+  border-radius: 10px; 
   color: #332;
   position: absolute;
   left: 40%;
   margin-top: 6.5px;
-  
-
-}
-.search-box {
-  width: 200px; /* Largura da caixa de texto */
-  padding-right: 30px; /* Espaçamento à direita para o botão de pesquisa */
 }
 
-/* Estilos para o botão de pesquisa */
-.search-button {
-  position: absolute;
-  right: 5px; /* Distância da direita */
-  top: 50%; /* Alinhar verticalmente */
-  transform: translateY(-50%); /* Alinhar verticalmente */
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid red;
+  border-bottom: 10px solid transparent;
+  margin-inline: 135px;
+  margin-top: -20px;
 }
 
-/* Ícone de pesquisa */
-.search-button i {
-  color: #333; /* Cor do ícone */
-}
-#coluna{
-  text-decoration: none;
-    color: white;
-    padding: 0px 0px;
-    display: block;
-}
 }
