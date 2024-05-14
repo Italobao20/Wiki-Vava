@@ -26,7 +26,11 @@ body {
       font-size: larger;
       color: white;
     }
-
+    
+    header{
+      font-family: "Courier", monospace;
+      font-size: x-large;
+    }
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
@@ -137,5 +141,14 @@ body {
   margin-inline: 135px;
   margin-top: -20px;
 }
-
+#Pesquisa{
+  font-family: "Courier", monospace;
+}
+#login{
+  margin-top: 13px;
+  margin-left: 1200px;
+}
+#login:hover{
+  background-color: white;
+}
 }
