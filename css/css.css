@@ -31,6 +31,10 @@ body {
       font-family: "Courier", monospace;
       font-size: x-large;
     }
+    #titulo{
+      margin-top: 9.5px;
+    }
+
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
@@ -146,9 +150,10 @@ body {
 }
 #login{
   margin-top: 13px;
-  margin-left: 1200px;
+  margin-left: 120px;
 }
 #login:hover{
   background-color: white;
+  width: 5px;
 }
 }
