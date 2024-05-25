@@ -58,6 +58,7 @@ div.retangulo{
 
 li.menu a{
 padding: 20px 15%;
+padding-left: 5%;
 font-size: 20px;
 color: white;
 text-decoration: none;
@@ -72,12 +73,9 @@ li.menu{
   :hover{background-color: rgb(172, 164, 164);}
 }
 
-.seta{
-  padding-left: 23%;
-}
-
 li.menu5 a{
   padding: 20px 20%;
+  padding-left: 5%;
   font-size: 20px;
   color: white;
   text-decoration: none;
@@ -91,3 +89,15 @@ li.menu5 a{
   li.menu5{
     :hover{background-color: rgb(172, 164, 164);}
   }
+
+  
+
+.dropdown-menu{
+  display: none;
+}
+.menu:hover .dropdown-menu{
+  display: block;
+}
+ul li div.dropdown-menu a{
+  background-color:rgba(255, 0, 0, 0.397);
+}
